@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7a8bbb59f3e142febd25ab7d636d58e, type: 3}
+  m_Name: ColorConfigPool
+  m_EditorClassIdentifier: 
+  colors:
+  - id: 0
+    displayName: Red
+    popHolder: {fileID: 21300000, guid: b3d647badf2b74936b0c0f940fbad891, type: 3}
+    popBalls: {fileID: 21300000, guid: 33d01ec8787a744878699ffc2846ceaa, type: 3}
+    trayAsset: {fileID: 21300000, guid: f3342d78f138743238146624055b0bd5, type: 3}
+    blockAsset: {fileID: 21300000, guid: 2bd25073761ba46a3821ce413211af9b, type: 3}
+    pressedAsset: {fileID: 21300000, guid: 2cba20f08b5fb471b950d3933ff3f95c, type: 3}
+    trayCoverAsset: {fileID: 21300000, guid: 3ba0df9dc933b8049bf4bf89bb000959, type: 3}
+  - id: 1
+    displayName: Blue
+    popHolder: {fileID: 21300000, guid: 20a392eafe5d34f82a6b9441c62d348d, type: 3}
+    popBalls: {fileID: 21300000, guid: 54a9206e6fc314bc1be517a35596af7c, type: 3}
+    trayAsset: {fileID: 21300000, guid: ee157900fca744b5da9fde2461e589d0, type: 3}
+    blockAsset: {fileID: 21300000, guid: 1abe92b9f772c4ebf8da0a7cb309b685, type: 3}
+    pressedAsset: {fileID: 21300000, guid: 47cfbac975f7c4c5d850e58b7f4c5270, type: 3}
+    trayCoverAsset: {fileID: 21300000, guid: d6d8081322395e849a3e32d1da51c1ce, type: 3}
+  - id: 2
+    displayName: Green
+    popHolder: {fileID: 21300000, guid: b3a6f70575aa44fce97f4ece5ecc19a3, type: 3}
+    popBalls: {fileID: 21300000, guid: 0e0a73a965e6d4b10a91717435df476d, type: 3}
+    trayAsset: {fileID: 21300000, guid: d46c36237ff064bedaa444b337ffed23, type: 3}
+    blockAsset: {fileID: 21300000, guid: d09d19002f3e84f26b828622829c9d91, type: 3}
+    pressedAsset: {fileID: 21300000, guid: c76215d1e47c94576add03602d328d3a, type: 3}
+    trayCoverAsset: {fileID: 21300000, guid: 52ff779b1a8e9f34ca75fbc43b3966be, type: 3}
+  - id: 3
+    displayName: Yellow
+    popHolder: {fileID: 21300000, guid: 6d32742f031b54855ba0b5d1e25ea25f, type: 3}
+    popBalls: {fileID: 21300000, guid: a727606cfb1ec4ca095fe3111e12cfd4, type: 3}
+    trayAsset: {fileID: 21300000, guid: e6389ef92888c4f0080a3d06e9f1dab2, type: 3}
+    blockAsset: {fileID: 21300000, guid: 5626659ee9a014ea795c23fa0e23abc4, type: 3}
+    pressedAsset: {fileID: 21300000, guid: 83f0f4761645049de8cedf267422690e, type: 3}
+    trayCoverAsset: {fileID: 21300000, guid: c00ba6d79fdf3134b91bf956cc70c50a, type: 3}
+  - id: 4
+    displayName: Pink
+    popHolder: {fileID: 21300000, guid: 5c1cc5f2f531f4bcf94ffec484b531bc, type: 3}
+    popBalls: {fileID: 21300000, guid: 7042e2388825d40a1bc4959c4dd9382c, type: 3}
+    trayAsset: {fileID: 21300000, guid: f2bfc8e5ee04441d6beb45e8d661f8f4, type: 3}
+    blockAsset: {fileID: 21300000, guid: e9d1b195328c74e039078b83103503b8, type: 3}
+    pressedAsset: {fileID: 21300000, guid: 0b59cae28300c440b8d593c994265ca8, type: 3}
+    trayCoverAsset: {fileID: 21300000, guid: 583dcef70fa594a44bc548c441aad096, type: 3}
+  - id: 5
+    displayName: Purple
+    popHolder: {fileID: 21300000, guid: e262ea94af16e49bbbbbc544c463bef1, type: 3}
+    popBalls: {fileID: 21300000, guid: d3774a66496874f13bf65bb114316047, type: 3}
+    trayAsset: {fileID: 21300000, guid: bc01627a2430d4efb8846a9b2762a533, type: 3}
+    blockAsset: {fileID: 21300000, guid: 6c94b13a53c1c4a3c8674d4315695d75, type: 3}
+    pressedAsset: {fileID: 21300000, guid: 2e8b7610b92e14344b2e851c7f093131, type: 3}
+    trayCoverAsset: {fileID: 21300000, guid: 0674ddbcbee2c584badc25d96e15aba5, type: 3}
+  - id: 6
+    displayName: Orange
+    popHolder: {fileID: 21300000, guid: 6566a98343de14e56b617e6050efaee1, type: 3}
+    popBalls: {fileID: 21300000, guid: f4fd0617b35d344d381d4dffe20ed591, type: 3}
+    trayAsset: {fileID: 21300000, guid: d14ced8a1f8314171805cf86a2454149, type: 3}
+    blockAsset: {fileID: 21300000, guid: 06ee50b4958d24bfd871248dd5fa2d7e, type: 3}
+    pressedAsset: {fileID: 21300000, guid: 2c07d4e1e73ce459f9f58cce6a271f09, type: 3}
+    trayCoverAsset: {fileID: 21300000, guid: 6a77328d186fb5d4e8271847604afa13, type: 3}
+  - id: 7
+    displayName: Cyan
+    popHolder: {fileID: 21300000, guid: 6e25e5abfe6e43a4a164b3c37b2f5a7d, type: 3}
+    popBalls: {fileID: 21300000, guid: d74a538e6266408aa50c4d499a96ad80, type: 3}
+    trayAsset: {fileID: 21300000, guid: bfd1cc54f5b249e38aa718c343dd3356, type: 3}
+    blockAsset: {fileID: 21300000, guid: 022d2ef1b5904cfd918c581354bd73fe, type: 3}
+    pressedAsset: {fileID: 21300000, guid: af88386808f1420f922ca37293b7858d, type: 3}
+    trayCoverAsset: {fileID: 21300000, guid: 7850575d620e43a2a6bc3ed8291a164d, type: 3}
+  - id: 8
+    displayName: Lime
+    popHolder: {fileID: 21300000, guid: 3fa3d9d21b7a4385aeb0aa36cda96d8d, type: 3}
+    popBalls: {fileID: 21300000, guid: 90d4c316553248f99e7eb61732929c11, type: 3}
+    trayAsset: {fileID: 21300000, guid: 7264a756332c48f996ef55fdb36f4345, type: 3}
+    blockAsset: {fileID: 21300000, guid: 284bd1ac3eb44aa19a6866f35a235eb3, type: 3}
+    pressedAsset: {fileID: 21300000, guid: c5ea8cb7baa2495181cbbed5e3899f1a, type: 3}
+    trayCoverAsset: {fileID: 21300000, guid: 2f2babb1f1274dab976c28e0e3e2aa0f, type: 3}
+  - id: 9
+    displayName: Deep Blue
+    popHolder: {fileID: 21300000, guid: 3016f504e1b2480bbc9c9caf8392819e, type: 3}
+    popBalls: {fileID: 21300000, guid: 8362110be4d54eb8b1cc4e912928ca70, type: 3}
+    trayAsset: {fileID: 21300000, guid: 158a328846ff422caaaf5ce72bedf960, type: 3}
+    blockAsset: {fileID: 21300000, guid: 4cfdba24eccc4cd6beefcc0dd71d1ce5, type: 3}
+    pressedAsset: {fileID: 21300000, guid: a2857127274b42649ff2fec993d92c5f, type: 3}
+    trayCoverAsset: {fileID: 21300000, guid: 94bbf416cc4f41ec8d9488d338188573, type: 3}
+  - id: 10
+    displayName: Magenta
+    popHolder: {fileID: 21300000, guid: 30ddaa63f4d74bd7a44bcda852b33056, type: 3}
+    popBalls: {fileID: 21300000, guid: cc38394432a54c489e2add57a46f46cd, type: 3}
+    trayAsset: {fileID: 21300000, guid: f878556c8a5e4e42b8b8928aad87f48a, type: 3}
+    blockAsset: {fileID: 21300000, guid: 991a27f3b8ef4e988f3261b5d780def2, type: 3}
+    pressedAsset: {fileID: 21300000, guid: b7129366d0c64b36bbb6b33bff85b3ac, type: 3}
+    trayCoverAsset: {fileID: 21300000, guid: 638f8b56b083425ca63ec48cb6448ebf, type: 3}
+  - id: 11
+    displayName: Ivory
+    popHolder: {fileID: 21300000, guid: 357346ee7a814b789aaaaf3324f4b106, type: 3}
+    popBalls: {fileID: 21300000, guid: 7039e14b0c304b4e87479c70536e56d3, type: 3}
+    trayAsset: {fileID: 21300000, guid: 6f253134dd7343c6a4f9665bf378ef33, type: 3}
+    blockAsset: {fileID: 21300000, guid: adb48d3f345b44a6ba498097592c86a7, type: 3}
+    pressedAsset: {fileID: 21300000, guid: 17f790c7885340cc91916eb5227537b2, type: 3}
+    trayCoverAsset: {fileID: 21300000, guid: ccd7342cfbf94b66971838c9999f55a8, type: 3}
